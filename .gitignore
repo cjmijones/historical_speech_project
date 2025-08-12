@@ -1,0 +1,36 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv/
+venv/
+.env.*
+.ipynb_checkpoints/
+.DS_Store
+
+# Jupyter/Quarto noise
+*.nbconvert.ipynb
+
+# OS/Editor
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Build/output
+/build/
+dist/
+*.log
+
+# Data outputs (keep structure, ignore contents)
+data/processed_audio/
+data/video_output/
+
+# If you plan to regenerate processed_texts from raw, ignore them too:
+# data/processed_texts/
+
+# Secrets
+config.local.py
