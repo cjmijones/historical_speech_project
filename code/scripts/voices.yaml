@@ -1,0 +1,14 @@
+# voices.yaml
+lincoln:
+  type: clone              # one of: preset | multispeaker | clone
+  model_dir: models/cosyvoice-voiceclone
+  prompt_wav: data/voices/lincoln_prompt.wav
+  # optional default controls
+  speaker_id: null
+  sample_rate: 24000
+
+narrator:
+  type: preset
+  model_dir: models/cosyvoice-base
+  speaker_id: en_female_0
+  sample_rate: 24000

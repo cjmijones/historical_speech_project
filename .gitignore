@@ -28,9 +28,18 @@ dist/
 # Data outputs (keep structure, ignore contents)
 data/processed_audio/
 data/video_output/
+data/models
+data/reference_voices
+data/Ocean_Swift_20th_Century_Public_Domain_Speeches
+data/captions
+
+assets/*
 
 # If you plan to regenerate processed_texts from raw, ignore them too:
-# data/processed_texts/
+data/processed_texts/
 
 # Secrets
 config.local.py
+
+# Outside Packages
+code/CosyVoice

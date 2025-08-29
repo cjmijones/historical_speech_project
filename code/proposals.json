@@ -1,0 +1,68 @@
+{
+  "fps": 24,
+  "inserts": [
+    {
+      "t_start": 12.44,
+      "t_end": 15.511676909850436,
+      "type": "image_overlay",
+      "asset": "assets_cache\\pexels_the_friend.jpg",
+      "layout": {
+        "pos": "top_left",
+        "scale": 0.6,
+        "margin": [
+          24,
+          24
+        ]
+      },
+      "anim": {
+        "ken_burns": {
+          "zoom": 1.04,
+          "pan": "center"
+        }
+      },
+      "reason": "keyword: The friend"
+    },
+    {
+      "t_start": 20.439999999999998,
+      "t_end": 24.813795492488435,
+      "type": "image_overlay",
+      "asset": "assets_cache\\pexels_among_the.jpg",
+      "layout": {
+        "pos": "top_right",
+        "scale": 0.6,
+        "margin": [
+          24,
+          24
+        ]
+      },
+      "anim": {
+        "ken_burns": {
+          "zoom": 1.04,
+          "pan": "center"
+        }
+      },
+      "reason": "keyword: Among the"
+    },
+    {
+      "t_start": 28.439999999999998,
+      "t_end": 32.44081428525494,
+      "type": "image_overlay",
+      "asset": "assets_cache\\pexels_the_state.jpg",
+      "layout": {
+        "pos": "mid_left",
+        "scale": 0.6,
+        "margin": [
+          24,
+          24
+        ]
+      },
+      "anim": {
+        "ken_burns": {
+          "zoom": 1.04,
+          "pan": "center"
+        }
+      },
+      "reason": "keyword: the State"
+    }
+  ]
+}
